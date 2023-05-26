@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #222222;
+}
+.navbar-collapse{
+    flex-grow: inherit;
+}
+.jumbotron{
+    color: #ffffff;
+    background-color: #222222;
+    height: 450px;
+    border-radius: 0px;
+}
+.barra{
+    color: #ffffff;
+    background-color: #222222;
+    height: 250px;
+    border-radius: 0px;
+}
+.btn{
+    border-radius: 50px;
+}
+.card{
+    border: inherit;
+}
+
+@media (max-width: 768px) {
+    .jumbotron{
+        text-align: center;
+        color: #ffffff;
+        background-color: #222222;
+        height: 700px;
+    }
+  }
