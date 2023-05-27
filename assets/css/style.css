@@ -1,3 +1,7 @@
+ul{
+    list-style: none;
+}
+
 .navbar{
     background-color: #222222;
 }
@@ -10,6 +14,16 @@
     height: 450px;
     border-radius: 0px;
 }
+.footer{
+    padding: 20px 0px;
+    color: #ffffff;
+    background-color: #222222;
+    border-radius: 0px;
+    color: #f4f4f4;
+}
+.footer a{
+    color:#bebebe;
+}
 .barra{
     color: #ffffff;
     background-color: #222222;
@@ -21,6 +35,11 @@
 }
 .card{
     border: inherit;
+}
+.user{
+    width: 80px;
+    border-radius: 50px;
+    margin: 15px;
 }
 
 @media (max-width: 768px) {
